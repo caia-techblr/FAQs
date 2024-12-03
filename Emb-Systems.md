@@ -39,15 +39,15 @@
 
 # I2C
 * What is I2C and how does it work
-* What * What is I2C and how does it work* What is I2C and how does it work* What is I2C and how does it work* What is I2C and how does it work* What is I2C and how does it workare the advantages of I2C protocol
+* What are the advantages of I2C protocol
 * Explain pin interface of I2C (Hints:- SCL, SDA)
-* Name one I2C sensors
+* Name one I2C sensor/actuator
   
 # SPI
-* What is I2C and how does it work
+* What is SPI and how does it work
 * What are the advantages of SPI protocol
 * Explain pin interface of SPI (Hints:- MOSI, MISO, SCLK, CS)
-* Name one SPI sensors
+* Name one SPI sensor/actuator
 
 ## Debugging
 * What is a serial Monitor?
