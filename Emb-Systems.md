@@ -20,20 +20,21 @@
 # ADC
 * Name few Analog sensors
 * Explain ADC Resolution and mapping voltage levels with digital values.
+* What is the resolution of 10 bit ADC 
 
 # Interrrupts
 * What are nested interrupts
 * Explain about Nested Interrupt Vector Controller (NVIC)
 * What is Interrupt Latency and how do you measure it
-* 
-
+  
 # Timers
  
 # Serial (UART/USART)
 * What is the difference between UART and USART
 * List important registers of UART interface
-* How can you acheive synchronization in UART (do clock
-* What are the steps involved in UART Device initialization
+* What are the steps/parameters involved in UART Device initialization
+* What are common baud rates used in UART communication
+* How can you acheive synchronization in UART 
 
 
 # I2C
@@ -48,7 +49,21 @@
 * Explain pin interface of SPI (Hints:- MOSI, MISO, SCLK, CS)
 * Name one SPI sensors
 
+## Debugging
+* What is a serial Monitor?
+* How do you check serial debug messages (Hint - Serial Terminal software on Windows/Linux)
+* What is JTAG?
+
 # Additional
 * What is RTC (Real Time Clock)
 * Explain the need and usage of Watchdog Timers (WDT)
-* What is JTAG?
+
+> If you are claiming Automotive (As a skil/project/internship) - refer CAN Qs
+# CAN
+* How CAN Protocol works
+* What are different types of CAN Frames (Data, Remote, Error, Overload frames)
+* What is ID range and Data (payload) range in standard CAN frames
+* Extended CAN Frames, CAN FD Frames
+* Bus Arbitration in CAN, Priority of CAN Frames
+* Bit Stuffing
+* Baudrate of CAN
