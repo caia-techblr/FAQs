@@ -23,6 +23,8 @@
 * What is the resolution of 10 bit ADC 
 
 # Interrrupts
+* What are Interrupts and how do you handle them
+* What are key considerations in designing ISRs (short/not lengthy, no blocking calls)
 * What are nested interrupts
 * Explain about Nested Interrupt Vector Controller (NVIC)
 * What is Interrupt Latency and how do you measure it
@@ -42,17 +44,23 @@
 * What are the advantages of I2C protocol
 * Explain pin interface of I2C (Hints:- SCL, SDA)
 * Name one I2C sensor/actuator
+* What are the steps involved in I2C Master initialization
+* Key differences between SPI and I2C
   
 # SPI
 * What is SPI and how does it work
 * What are the advantages of SPI protocol
 * Explain pin interface of SPI (Hints:- MOSI, MISO, SCLK, CS)
 * Name one SPI sensor/actuator
-
+* What are the steps involved in SPI Master initialization
+* Key differences between SPI and I2C
+  
 ## Debugging
 * What is a serial Monitor?
 * How do you check serial debug messages (Hint - Serial Terminal software on Windows/Linux)
 * What is JTAG?
+* Can we use printf in firmware coding, if not what's the alternative for output messages.
+* Can we use printf inside an ISR
 
 # Additional
 * What is RTC (Real Time Clock)
