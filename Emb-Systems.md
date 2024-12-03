@@ -25,12 +25,15 @@
 # Interrrupts
 * What are Interrupts and how do you handle them
 * What are key considerations in designing ISRs (short/not lengthy, no blocking calls)
+* Maskable and Non Maskable Interrupts
 * What are nested interrupts
 * Explain about Nested Interrupt Vector Controller (NVIC)
 * What is Interrupt Latency and how do you measure it
+* Interrupt Priority
   
 # Timers
- 
+* Role and significance of Timers in an embedded system
+
 # Serial (UART/USART)
 * What is the difference between UART and USART
 * List important registers of UART interface
