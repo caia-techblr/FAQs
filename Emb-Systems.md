@@ -8,20 +8,33 @@
 # Architecture
 * What is the MCU in Arduino UNO board, and it belongs to which architecture?
 * What is the MCU in STM32 F4 Discovery board, and it belongs to which architecture? (Same applies to Nucleo board)
+* What are the common types of memory in a microcontroller?
+* Explain the concept of memory-mapped I/O.
 
 
 # GPIO
 * Name few Digital/GPIO sensors
 * List important registers of GPIO interface
+* What are the steps involved in GPIO Device initialization
 
 # ADC
 * Name few Analog sensors
+* Explain ADC Resolution and mapping voltage levels with digital values.
 
 # Interrrupts
-* Explain Nested Interrupt Vector (NVIC)
+* What are nested interrupts
+* Explain about Nested Interrupt Vector Controller (NVIC)
+* What is Interrupt Latency and how do you measure it
 * 
-# Serial
+
+# Timers
+ 
+# Serial (UART/USART)
 * What is the difference between UART and USART
+* List important registers of UART interface
+* How can you acheive synchronization in UART (do clock
+* What are the steps involved in UART Device initialization
+
 
 # I2C
 * What is I2C and how does it work
@@ -38,3 +51,4 @@
 # Additional
 * What is RTC (Real Time Clock)
 * Explain the need and usage of Watchdog Timers (WDT)
+* What is JTAG?
