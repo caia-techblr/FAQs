@@ -14,8 +14,10 @@
 
 # GPIO
 * Name few Digital/GPIO sensors
-* List important registers of GPIO interface
+* List important registers of GPIO interface (Mode, Pull-up and Pull-down
 * What are the steps involved in GPIO Device initialization
+* PWM Signals
+* PORTs and PINs, e.g. DDRx, PORTx, PINx in Atmega.
 
 # ADC
 * Name few Analog sensors
@@ -26,6 +28,7 @@
 * What are Interrupts and how do you handle them
 * What are key considerations in designing ISRs (short/not lengthy, no blocking calls)
 * Maskable and Non Maskable Interrupts
+* Edge Triggered Interrupts - FALLING Edge , RISING Edge 
 * What are nested interrupts
 * Explain about Nested Interrupt Vector Controller (NVIC)
 * What is Interrupt Latency and how do you measure it
