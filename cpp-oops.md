@@ -42,6 +42,8 @@ Point(int x,int y):m_x(x), m_y(y) { }
 > will be released at end of scope even if destructor is not implemented
 > Real purpose of destructor is to release any external resources like dynamic memory
 > Please refer [MyStack](cpp-examples/mystack-demo.cxx) example
+
+> Similarly constructor doesn't allocate memory for the object, it's role is to initialize data members (initial object state) 
   
 ## Inheritance
 * What is inheritance
