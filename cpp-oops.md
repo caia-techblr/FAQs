@@ -41,7 +41,7 @@ Point(int x,int y):m_x(x), m_y(y) { }
 > Please note that destructor doesn't destroy the object. Object's own memory
 > will be released at end of scope even if destructor is not implemented
 > Real purpose of destructor is to release any external resources like dynamic memory
-> Please refer stack example
+> Please refer [MyStack](cpp-examples/mystack-demo.cxx) example
   
 ## Inheritance
 * What is inheritance
